@@ -4,7 +4,7 @@
  * @Author: Bailinxiang
  * @Date: 2023-05-24 16:07:46
  * @LastEditors: sueRimn
- * @LastEditTime: 2023-05-25 09:37:34
+ * @LastEditTime: 2023-05-25 16:22:50
  */
 module.exports = {
   env: { browser: true, es2020: true },
@@ -29,7 +29,7 @@ module.exports = {
   rules: {
     "prettier/prettier": "error",
     "react-refresh/only-export-components": "warn",
-    "no-debugger": 2, //禁止使用debugger(0-关闭)
+    "no-debugger": 0, //禁止使用debugger(0-关闭)
     "no-unused-vars": 1, //不能有声明后未被使用的变量或参数(1-warn)
   },
 };

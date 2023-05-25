@@ -4,7 +4,7 @@
  * @Author: Bailinxiang
  * @Date: 2023-05-24 16:07:46
  * @LastEditors: sueRimn
- * @LastEditTime: 2023-05-25 15:17:08
+ * @LastEditTime: 2023-05-25 15:50:57
  */
 import { useState, useEffect } from "react";
 import reactLogo from "./assets/react.svg";
@@ -16,7 +16,7 @@ function App() {
 	const [count, setCount] = useState(0);
 
 	useEffect(() => {
-		console.log("123测试");
+		console.log("123测试1111");
 		debugger;
 	}, []);
 
