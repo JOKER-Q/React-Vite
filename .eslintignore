@@ -16,3 +16,4 @@ dist
 .prettierignore
 .prettierrc.js
 /src/mock/*
+vite.config.js

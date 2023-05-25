@@ -29,7 +29,7 @@ module.exports = {
   rules: {
     "prettier/prettier": "error",
     "react-refresh/only-export-components": "warn",
-    "no-debugger": 0, //禁止使用debugger(0-关闭)
+    "no-debugger": 2, //禁止使用debugger(0-关闭)
     "no-unused-vars": 1, //不能有声明后未被使用的变量或参数(1-warn)
   },
 };

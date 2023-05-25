@@ -4,15 +4,21 @@
  * @Author: Bailinxiang
  * @Date: 2023-05-24 16:07:46
  * @LastEditors: sueRimn
- * @LastEditTime: 2023-05-25 09:30:51
+ * @LastEditTime: 2023-05-25 13:46:47
  */
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import TestPage from "./pages/testPage";
 
 function App() {
 	const [count, setCount] = useState(0);
+
+	useEffect(() => {
+		console.log("123");
+		debugger;
+	}, []);
 
 	return (
 		<>
@@ -32,6 +38,7 @@ function App() {
 				</p>
 			</div>
 			<p className="read-the-docs">Click on the Vite and React logos to learn more</p>
+			<TestPage></TestPage>
 		</>
 	);
 }

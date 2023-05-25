@@ -11,3 +11,4 @@
 .eslintrc.js
 .prettierignore
 .prettierrc.js
+vite.config.js
